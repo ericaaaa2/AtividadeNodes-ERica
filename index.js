@@ -1,3 +1,6 @@
+const prompt = require('prompt-sync');
+const entrada = prompt();
+
 const nomeCompleto = "Érica Celestino de Lara";
 const anoNascimento = 2004; 
 let anoAtual = 2024
@@ -28,7 +31,9 @@ console.log(listaDeViagens);
 listaDeViagens.splice(1,2);
 console.log(listaDeViagens)
 
-const idadeComprador = 28;
+var nomeComprador = entrada("Qual e seu nome?");
+
+var idadeComprador = entrada("Qual e a sua idade?");
 
 if(idadeComprador < 18){
   console.log("infelizmente voce é menor de idade nao podemos vender nossas passagens ")
