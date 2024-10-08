@@ -16,10 +16,13 @@ console.log(`oi eu sou ${nomeCompleto} meu ano de nacimento é ${anoNascimento} 
 
 const loginCerto = "Erica";
 const senhaCerta = "1234";
-console.log("---------------------");
-console.log("--AGENCIA DE VIAGENS--") 
-console.log("--------------------- ");
-console.log("Faça seu login: ");
+console.log("");console.log("                            🌎 AGENCIA DE VIAGENS 🌎 "); 
+console.log(" ");
+
+console.log("AREA DE LOGIN");
+console.log("")
+console.log("Faça seu login para mais informaçoes: ");
+
 
 var login = entrada("Digite seu login: ");
 var senha = entrada("Digite sua senha: ");
@@ -32,7 +35,7 @@ while(senha != senhaCerta){
   console.log("senha incorreta");
   senha = entrada("Digite sua senha novamente: ");
 }
-
+console.log("");
 const listaDeViagens = new Array(
   `Mexico`,
   `Canada`,
@@ -51,8 +54,10 @@ listaDeViagens.splice(1,2);
 console.log(listaDeViagens)
 
 var nomeComprador = entrada("Qual e seu nome?");
+console.log("");
 
 var idadeComprador = entrada("Qual e a sua idade?");
+console.log("");
 
 if(idadeComprador < 18){
   
